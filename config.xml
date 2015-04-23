@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.saleca.testCamera"
+    version   = "1.0.1">
+
+<name>CELL PHONE PLANET</name>
+
+<description>
+CELL PHONE PLANET WORLD WIDE
+</description>
+
+<author href="http//www.45graphics.net" email="josue@45graphics.net.com">
+Josue Munoz
+</author>
+
+
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/device"/>
+ 
+ 	<preference name="phonegap-version" 			value="2.5.0" />
+  	<preference name="orientation"    				value="vertical" />
+  	<preference name="target-device"    			value="universal" />
+  	<preference name="fullscreen"       			value="false" />
+	<preference name="webviewbounce" 				value="true" />
+	<preference name="prerendered-icon" 			value="false" />
+	<preference name="show-splash-screen-spinner" 	value="true" />
+	<preference name="splash-screen-duration" 		value="3000" />
+	<preference name="ios-statusbarstyle" 			value="black-opaque" />
+	<preference name="detect-data-types" 			value="true" />
+	
+	<icon src="assets/icon.png" />
+
+<gap:splash src="assets/xhdpi.png" />
+	
+	
+</widget>
